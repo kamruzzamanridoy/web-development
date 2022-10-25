@@ -1,0 +1,75 @@
+.header{   width: 1200px;
+    height: 100px;
+    background: aqua;
+    margin: 0 auto;
+}
+
+.logo{
+    padding: 20px;
+    float: left;
+ 
+}
+.logo img{
+    width: 70%;
+    height: 70%;
+}
+
+.menu{
+    float: right;
+    padding-top: 15px;
+}
+.menu ul{
+
+    list-style:none ;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration-line: none;
+    font-size: 25px;
+    padding-right: 20px;
+}
+/* header part end */
+/* slider part start*/
+.slider{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./image/undraw_Educator_re_ju47.png);
+    background-repeat: no-repeat;
+    background-size:full;
+    background-position: center;
+    
+   
+
+}
+.slider h1{
+    position: absolute;
+    top: 30%;
+    left:42%;
+    color: rgb(235, 235, 240);
+}
+.slider p{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    color: white;
+    text-align-center;
+}
+.slider a{
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px 25px;
+    color:white;
+    font-size: 25px;
+    background:green;
+    border-radius: 20px;
+
+}
+}
+/*slider part end*/
