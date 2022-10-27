@@ -31,11 +31,16 @@
     font-size: 25px;
     padding-right: 20px;
 }
+.menu ul li a:hover{
+    background: rgb(104, 161, 149);
+    color: beige;
+    padding: 20px;
+}
 /* header part end */
 /* slider part start*/
 .slider{
     width: 1200px;
-    height: 400px;
+    height: 600px;
     margin: 0 auto;
     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./image/undraw_Educator_re_ju47.png);
     background-repeat: no-repeat;
@@ -71,5 +76,36 @@
     border-radius: 20px;
 
 }
-}
+
 /*slider part end*/
+
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+.service- title{
+    text-align: center;
+    padding-top: 20px;
+   
+
+}
+.services-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+span{
+    color: blueviolet;
+}
+.card{
+    text-align: center;
+    background-color: rgb(23, 204, 144);
+    padding: 20px;
+
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: blanchedalmond;
+    border: 2px solid tomato;
+}
