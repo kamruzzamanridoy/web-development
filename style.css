@@ -1,111 +1,165 @@
-.header{   width: 1200px;
-    height: 100px;
-    background: aqua;
+/*
+Theme Name: ThemeNeha
+Author: Tasniah Hanif Neha
+Version: 1.0
+Description: This is for training purpose
+Tags: DPI, IIST, Web Development, Web Design
+Text Domain: themeneha
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/download.gif) center;
+}
+.cont{
+    max-width: 996px;
     margin: 0 auto;
 }
-
-.logo{
-    padding: 20px;
-    float: left;
- 
+.topbar{
+    background: #d85ec8;
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid red;
 }
-.logo img{
-    width: 70%;
-    height: 70%;
+.topbar{
+    color: #fff;
 }
-
-.menu{
-    float: right;
-    padding-top: 15px;
-}
-.menu ul{
-
-    list-style:none ;
-
-}
-.menu ul li{
-    display: inline-block;
-}
-.menu ul li a{
-    text-decoration-line: none;
-    font-size: 25px;
-    padding-right: 20px;
-}
-.menu ul li a:hover{
-    background: rgb(104, 161, 149);
-    color: beige;
-    padding: 20px;
-}
-/* header part end */
-/* slider part start*/
-.slider{
-    width: 1200px;
-    height: 600px;
-    margin: 0 auto;
-    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./image/undraw_Educator_re_ju47.png);
-    background-repeat: no-repeat;
-    background-size:full;
-    background-position: center;
-    
-   
-
-}
-.slider h1{
-    position: absolute;
-    top: 30%;
-    left:42%;
-    color: rgb(235, 235, 240);
-}
-.slider p{
-    position: absolute;
-    top: 35%;
-    left: 42%;
-    color: white;
-    text-align-center;
-}
-.slider a{
-    position: absolute;
-    top: 45%;
-    left: 42%;
+.right-top a{
+    color: #fff;
     text-decoration: none;
-    border: 1px solid whitesmoke;
-    padding: 10px 25px;
-    color:white;
-    font-size: 25px;
-    background:green;
-    border-radius: 20px;
-
+    border-left: 1px solid #fff;
+    padding-left: 3px;
+    margin-left: 3px;
 }
 
-/*slider part end*/
+/* ====header==== */
 
+.header{
+    margin-bottom: 2rem;
+}
+.logo{
+    height: 110px;
+    line-height: 110px;
+}
+.logo-search form input{
+    width: 60%;
+}
+.logo-links, .logo-search{
+    padding-top: 2rem;
+}
+.ff{
+    padding-right: 5px;
+    margin-right: 3px;
+    border-right: 1px solid #b6b4b4;
+}
+
+/* ===menubar== */
+.menubar ul li a{
+    font-size: 12px;
+    border-right: 1px solid #b6b4b4;
+    color: #000;
+}
+.menubar ul li a:hover{
+    background: rgb(46, 6, 6);
+    color: #fff;
+}
+
+/* ===hero=== */
 .hero{
-    width: 1200px;
-    margin: 0 auto;
+    padding-top: 2rem;
 }
-.service- title{
-    text-align: center;
-    padding-top: 20px;
-   
+.banner img{
+    padding: 5px;
+    border: 2px solid red;
+}
+/* slider */
+.slider img{
+    height: 200px;
+    margin-top: 10px;
+}
+/* tab */
+.tab{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tab .row{
+    margin-left: 1.5rem;
+}
+.tab a{
+    text-decoration: none;
+    padding-left: 12px;
+    color: green;
+}
 
+/* link */
+.link ul li{
+    list-style: none;
 }
-.services-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.link ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 12px;
 }
-span{
-    color: blueviolet;
+.link ul li p{
+    border-bottom: 1px solid green;
+    width: 60%;
+    font-size: 12px;
 }
-.card{
-    text-align: center;
-    background-color: rgb(23, 204, 144);
-    padding: 20px;
+.link h6{
+    padding-left: 2rem;
+}
 
+/* ====sidebar===== */
+.sidebar img{
+    padding-top: 5px;
 }
-.card img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: blanchedalmond;
-    border: 2px solid tomato;
+
+/* ===side-video=== */
+.side-video img{
+    height: 180px;
+}
+.side-video p{
+    background: green;
+    padding: 5px 0;
+    color: #fff;
+}
+/* ===left-tab=== */
+.left-tab img{
+    padding: 2px;
+}
+
+
+/* left-videos */
+.left-videos p{
+    background: green;
+    color: #fff;
+    padding: 5px 0;
+}
+
+
+/* ===footer=== */
+
+footer{
+    margin-top: 2rem;
+}
+
+
+.left-b-f ul li a{
+    text-decoration: none;
+    border-right: 1px solid #b6b4b4;
+    font-size: 12px;
+}
+.left-b-f p{
+    font-size: 12px;
+    color: #636161;
+    margin-left: 2.3rem;
+}
+.right-b-f p{
+    font-size: 12px;
+    color: #636161;
 }
